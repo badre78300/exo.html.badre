@@ -1,0 +1,49 @@
+*{ /* l'étoile selectionne tout le document*/
+    text-align: right; /* aligne le texte a droite*/
+}
+
+body{
+    background-color: blue;
+}
+
+header{
+    background-color: #ff1493;
+    color: dodgerblue; /*couleur du texte*/
+    height: 100px; /*hauteur fixé a 100pixel*/
+}
+
+nav{
+    background-color: forestgreen;
+    height: 60px;
+}
+
+section{
+    background-color: lightcoral;
+    height: 600px;
+}
+
+article{
+    background-color: maroon;
+    height: 67px;
+}
+
+footer{
+    background-color: midnightblue;
+    height: 75px;
+}
+
+nav, footer{ /*je separe les differentes balises a selectionner par des virgules*/
+    color: midnightblue;
+}
+
+/* pour selectionner une place en css, j'utile un point avant le nom que je lui ai donné.*/
+.jaune{
+    background-color: olive;
+}
+/*pour cibler l'id, j'utilise un dièse*/
+#noir{
+    background-color: black;
+    color: purple;
+    text-align: justify;
+    font-size: 25px;
+}
